@@ -1,0 +1,17 @@
+.header {
+    padding: 1.5rem 1rem;
+    background-color: lightgray;
+    text-align: right;
+}
+
+.header nav a {
+    padding: 0.8rem 1rem;
+    color: black;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    border-radius: 0.4rem;
+}
+
+.header nav a:hover {
+    background-color: rgb(166, 166, 166);
+}
