@@ -20,6 +20,7 @@
 .sign-out {
     border: none;
     background: rgb(252, 162, 162);
+    cursor: pointer;
 }
 
 .sign-out:hover {

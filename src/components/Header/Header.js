@@ -12,8 +12,9 @@ const Header = () => {
                 <Link to={'/'}>Products</Link>
                 <Link to={'/order'}>Order</Link>
                 <Link to={'/register'}>Register</Link>
+                {user?.displayName && user.displayName}
                 {
-                    user.uid
+                    user?.uid
                         ?
                         <span className='sign-out' onClick={handleSignOut}>Sign Out</span>
                         :
